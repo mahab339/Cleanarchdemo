@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cleanarch.Application\Cleanarch.Application.csproj" />
+    <ProjectReference Include="..\Cleanarch.Infra.Data\Cleanarch.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
