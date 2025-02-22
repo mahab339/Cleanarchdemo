@@ -23,6 +23,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleanarch.Infra.Data", "Cleanarch.Infra.Data\Cleanarch.Infra.Data.csproj", "{E1E3F12F-E778-4565-9FE9-9CC5BD1FAAA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cleanarch.Application", "Cleanarch.Application\Cleanarch.Application.csproj", "{1A02E9B5-FA50-4ACD-BE01-D74D4008B2EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8CE5EE1-0292-46F7-B442-AC075F01096D} = {B8CE5EE1-0292-46F7-B442-AC075F01096D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
