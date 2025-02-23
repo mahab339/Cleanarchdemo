@@ -1,5 +1,4 @@
 ﻿using Cleanarch.Application.Interfaces;
-using Cleanarch.Application.Viewmodels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +9,7 @@ namespace Cleanarch.Mvc.Controllers
     {
         private readonly Icourseservice _Courseservice;
 
-        public  Course(Icourseservice courseservice)
+        public Course(Icourseservice courseservice)
         {
             _Courseservice=courseservice;
         }

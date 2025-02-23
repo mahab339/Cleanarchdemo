@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using Cleanarch.Mvc.Models;
+﻿using Cleanarch.Mvc.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Cleanarch.Mvc.Controllers
 {
